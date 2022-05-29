@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**************************************************BARRA DE REDES SOCIAIS***************************************/ 
+.info{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    margin-right: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #CD3AE4;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.info div{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.icon2{
+    width: 65px;
+    height: 65px;
+}
+/**************************************************LOGO DA LOJA***************************************************/
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+}
+/*************************************************PESQUISA E BOTÃO**********************************************/
+.seach{
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    width: 50%;
+    height: 32px;
+}
+.buscatxt{
+    float: left;
+    padding-left: 5px;
+    border-radius: 7px;
+    font-size: 18px;
+    height: 22px;
+    width: 50%;
+    color: black;
+    margin-bottom: 90px;
+    border: black 2px solid;
+}
+.btnbusca{
+    float: left;
+    height: 24px;
+    background-color: white;
+    border-radius: 7px;
+    width: 05%;
+    align-items: center;
+    border: #007BFF 1px solid; 
+    color: #007BFF;
+}
+/*************************************************BARRA DE CATEGORIAS********************************************/
+.nav{
+    display: flex;
+    width: 95%;
+    height: 25px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-left: 30px;
+    justify-content: space-around;
+    border: black 2px solid;
+}
+b{
+    font-family: Roboto;
+}
+/************************************************NOVIDADES DE PRODUTOS******************************************/
+
+h2{
+    font-family: Comic Sans MS;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.novidades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 50px;
+    
+} 
+.card{
+    display: flex;
+    width: 235px;
+    height: 280px;
+    margin-left: 15px;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+.directright{
+    margin-right: 10px;
+}
+.img1{
+    margin-bottom: 08px;
+    margin-left: 18px;
+    margin-right: 11px
+}
+footer{
+    flex-direction: row;
+    margin-left: 09px;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer img{
+    width: 170px;
+    height: 200px;
+    margin-left: 10px;
+    align-items: center;
+}
+footer p{
+    text-align: center;
+}
